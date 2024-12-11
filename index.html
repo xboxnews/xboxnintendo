@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbox e Nintendo Blogs</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .iframe-container {
+            display: flex;
+            flex: 1;
+        }
+        iframe {
+            flex: 1;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Xbox e Nintendo News</h1>
+    </header>
+    <div class="iframe-container">
+        <iframe src="https://news.xbox.com/pt-br/" title="Blog Xbox"></iframe>
+        <iframe src="https://www.nintendo.com/pt-br/whatsnew/" title="Blog Nintendo"></iframe>
+    </div>
+</body>
+</html>
